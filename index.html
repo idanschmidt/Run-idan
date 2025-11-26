@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>עולם הריצה של עידן</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: ltr;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: row;
+            background-color: #f5f5f5;
+        }
+
+        .content {
+            flex: 1;
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: #333;
+            background-color: rgba(200,200,200,0.3);
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.6;
+            max-width: 700px;
+            margin: 0 auto;
+            color: #444;
+        }
+
+        ul.results, ul.upcoming {
+            list-style-type: none;
+            text-align: left;
+            max-width: 600px;
+            margin: 30px auto 0 auto;
+            padding-left: 0;
+            font-size: 18px;
+        }
+
+        ul.results li {
+            background-color: #ffd70033;
+            margin-bottom: 10px;
+            padding: 10px 15px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+        }
+
+        ul.results li::before {
+            content: '🥇';
+            margin-right: 10px;
+        }
+
+        ul.upcoming li {
+            background-color: #90ee9033;
+            margin-bottom: 10px;
+            padding: 10px 15px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+        }
+
+        ul.upcoming li::before {
+            content: '🏃';
+            margin-right: 10px;
+        }
+
+        .strava-link {
+            margin-top: 40px;
+        }
+
+        .strava-link a {
+            display: inline-flex;
+            align-items: center;
+            background-color: #fc4c02;
+            color: white;
+            font-size: 20px;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+            transition: background-color 0.3s;
+        }
+
+        .strava-link a:hover {
+            background-color: #e04301;
+        }
+
+        .strava-link a img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+
+        .image-container {
+            width: 35%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .image-container img {
+            max-width: 90%;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="image-container">
+        <img src="C:/Users/idans/OneDrive/תמונות/סרט צילום/2025/02/20250228_181444105_iOS.jpg" alt="תמונה של עידן" />
+        <img src="C:/Users/idans/iCloudPhotos/Photos/IMG_3241.JPG" alt="עוד תמונה מריצה" />
+    </div>
+
+    <div class="content">
+        <h1>עולם הריצה של עידן</h1>
+        <p>
+            ברוכים הבאים לעמוד הריצה שלי! כאן אני משתף את החוויות, הסיפורים והרגעים המרגשים מהריצות שלי.
+            זה המקום שבו אוכל לעדכן על התקדמות, מטרות, מסלולים חדשים וכל מה שקשור לעולם הריצה שמהווה חלק חשוב מהיומיום שלי.
+        </p>
+
+        <ul class="results">
+            <li> מרתון 2025 תל אביב 21.1 ק"מ- 01:45:06</li>
+            <li> מירוץ 2025 רחובות 5 ק"מ- 00:23:50</li>
+        </ul>
+
+        <h2 style="margin-top:40px;">מירוצים קרובים</h2>
+        <ul class="upcoming">
+            <li>מירוץ עמק המעיינות ב-5.12.25 - 10 ק"מ</li>
+            <li>  מירוץ בשביל המחר מועצה אזורית אשכול ב-19.12.25 - 10 ק"מ</li>
+            <li>מרתון טבריה ב-9.1.26 - 21.1 ק"מ</li>
+            <li>מרתון תל אביב ב-27.2.26 - 21.1 ק"מ</li>
+        </ul>
+
+        <div class="strava-link">
+            <a href="https://www.strava.com/athletes/yourprofile" target="_blank">
+                <img src="data:image/jpeg;base64,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" alt="Strava Logo" />
+                עקבו אחרי באפליקציית Strava
+            </a>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
